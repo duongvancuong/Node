@@ -17,6 +17,29 @@
   },
   "devDependencies": {
     "connect": "^3.4.1",
-    "serve-static": "^1.11.1"
+    "serve-static": "^1.11.1",
+    "fs": "0.0.2",
+    "gulp": "~3.5.2",
+    "gulp-concat": "~2.1.7",
+    "gulp-jshint": "^1.9.0",
+    "gulp-karma": "0.0.4",
+    "gulp-less": "^3.0.3",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-modify": "0.1.1",
+    "gulp-rev": "^6.0.1",
+    "gulp-shell": "~0.4.3",
+    "gulp-uglify": "^1.4.2",
+    "gulp-usemin": "^0.3.15",
+    "gulp-util": "~2.2.14",
+    "karma": "^0.12.16",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-coverage": "~0.1",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "minimist": "^1.1.0",
+    "phantomjs": "^1.9.17",
+    "run-sequence": "^1.0.1",
+    "st": "^1.0.0"
   }
 }

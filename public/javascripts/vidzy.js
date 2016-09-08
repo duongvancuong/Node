@@ -1,26 +1,26 @@
 var app = angular.module('Vidzy', ['ngResource', 'ngRoute']);
 
 app.config(['$routeProvider', function($routeProvider){
-    $routeProvider
-        .when('/', {
-            templateUrl: 'partials/home.html',
-            controller: 'HomeCtrl'
-        })
-        .when('/add-video', {
-            templateUrl: 'partials/video-form.html',
-            controller: 'AddVideoCtrl'
-        })
-        .when('/video/:id', {
-		        templateUrl: 'partials/video-form.html',
-		        controller: 'EditVideoCtrl'
-		    })
-		    .when('/video/delete/:id', {
-		        templateUrl: 'partials/video-delete.html',
-		        controller: 'DeleteVideoCtrl'
-		    })
-        .otherwise({
-            redirectTo: '/'
-        });
+  $routeProvider
+    .when('/', {
+        templateUrl: 'partials/home.html',
+        controller: 'HomeCtrl'
+    })
+    .when('/add-video', {
+        templateUrl: 'partials/video-form.html',
+        controller: 'AddVideoCtrl'
+    })
+    .when('/video/:id', {
+        templateUrl: 'partials/video-form.html',
+        controller: 'EditVideoCtrl'
+    })
+    .when('/video/delete/:id', {
+        templateUrl: 'partials/video-delete.html',
+        controller: 'DeleteVideoCtrl'
+    })
+    .otherwise({
+        redirectTo: '/'
+    });
 }]);
 
 app.controller('HomeCtrl', ['$scope', '$resource', 
